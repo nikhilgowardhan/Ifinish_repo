@@ -1,0 +1,36 @@
+
+.card{
+    display: none;
+}
+
+
+@media screen  and (max-width:960px){
+    /* .menu{ 
+        padding: 0.5rem;
+       
+    } */
+    
+    /* .card {
+        background-color: black;
+        color: rgb(216, 188, 188);
+        display: block;
+        list-style: none;
+        padding: 0;
+    }
+    #collapseExample {
+        border-top: 0.1rem solid white;
+    } */
+    
+}
+
+@media screen  and (max-width:480px){
+    .btn_div {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+    }
+
+    #collapseExample  {
+        text-align: right;
+    }
+}

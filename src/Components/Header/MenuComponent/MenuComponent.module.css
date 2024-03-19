@@ -1,0 +1,98 @@
+.menu {
+    background-color: black;
+    padding: 0.5rem;
+} 
+.anch {
+    text-decoration: none;
+    color: white;
+}
+.btn_div button, .list {
+    display: none;
+}
+
+.menu_container{
+    background-color: black;
+    list-style: none;
+    color: white;
+    padding: 0.5rem;
+    margin: 0;
+}
+
+.menu_container > li {
+    display: inline-block;
+    margin-right: 1rem;
+    text-decoration: none;
+}
+
+
+.menu_container > li:nth-child(7) {
+    position: absolute;
+    right: 0rem;
+}
+.menu_container > li:nth-child(8) {
+    display: none;
+}
+
+
+
+
+
+@media only screen  and (max-width:1070px){
+    .menu_container  {
+        display: none;
+    }
+    .list {
+        display: block;
+    }
+    .list ul {
+        list-style: none;
+        background-color: black;
+        color: white;
+        
+   }
+    .btn_div {
+        display: flex;
+        justify-content: end;
+    }
+    .btn_div button{
+        display: block;
+        margin: 0.5rem;
+        
+    }
+    .anch {
+        text-decoration: none;
+        color: white;
+    }
+    .menu_container>li:nth-child(8) {
+        display: none;
+    }
+    .list ul > li:nth-child(8){
+        display: none;
+    }
+   
+}
+
+
+@media screen  and (max-width:480px){
+    .btn_div button {
+        position: absolute;
+        top: 0.5rem;
+    }
+    .list ul {
+         list-style: none;
+         background-color: black;
+         color: white;
+         
+    }
+    .list  {
+        text-align: right;
+    }
+    .anch {
+        text-decoration: none;
+        color: white;
+    }
+    .list ul > li:nth-child(8){
+        display: block;
+    }
+   
+}

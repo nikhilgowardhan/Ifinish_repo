@@ -1,0 +1,30 @@
+
+.footer_ {
+    display: flex;
+    background-color: black;
+    padding: 2rem 7rem;
+    text-align: left;
+}
+.footer_head {
+    color: rgb(224, 146, 44);
+}
+.footer_ul{
+    list-style: none;
+    padding: 0;
+    font-size: 0.9rem;
+}
+.footer_ul li {
+    color: white;
+}
+
+.footer_row2 > div{
+    background-color: rgb(74, 72, 72);
+    text-align: center;
+    color: white;
+}
+
+@media only screen  and (max-width: 700px){
+    .footer_{
+        padding: 1rem 2rem;
+    }
+}

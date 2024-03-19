@@ -1,0 +1,13 @@
+.sidepanel {
+    padding: 1rem 0.5rem;
+    margin: 1rem 0.5rem;
+    border: 1px solid #ffffff;
+    background: #c2c2c2;
+    border-radius: 1rem 1rem;
+}
+.sidepanelInput{
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.3rem 0.5rem;
+    border: none;
+}

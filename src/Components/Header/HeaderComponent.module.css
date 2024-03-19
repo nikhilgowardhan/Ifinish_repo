@@ -1,0 +1,45 @@
+.header{
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    line-height: 2rem ;
+    color: white;
+    align-items: center;
+}
+
+.header > div{
+    margin: 1rem;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+@media only screen and (max-width: 480px) {
+    .header {
+        background-color: black;
+    }
+
+    .header div:last-child {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 980px){
+    .header {
+        display: block;
+
+        
+    }
+    .header div:first-child{
+        text-align: left;
+        margin: 0;
+        padding-left: 1rem;
+        padding-top: 1rem;
+    }
+    .header div:last-child{
+        text-align: right;
+        margin: 0;
+        padding-bottom: 1rem;
+        padding-right: 1rem;
+    }
+}

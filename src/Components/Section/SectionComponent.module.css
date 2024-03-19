@@ -1,0 +1,32 @@
+.section {
+    width: 95%;
+    /* height: 20rem; */
+    border: 0.1rem solid rgb(216, 211, 211);
+    margin: 1rem auto;
+    background-color: #fff;
+    border-radius: 1rem ;
+    box-shadow: 0rem 0rem 0rem rgb(104, 103, 103);
+
+}
+
+.row {
+    display: flex;
+}
+.col_01{
+    width: 25%;
+    /* margin: 0rem 2rem; */
+}
+.col_02{
+    width: 75%;
+}
+
+@media only screen and (max-width: 960px) {
+
+    .row { display: block}
+
+    .col_01, .col_02{
+        width: 100%;
+        padding: 1rem 1rem;
+       
+    }
+}
